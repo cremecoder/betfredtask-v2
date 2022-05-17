@@ -7,81 +7,136 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="top-bar">
-      <div class="top-bar__container">
-        <a href="#" class="top-bar__logo">
+    <div class="page-wrapper">
+      <nav class="top-bar">
+        <div class="top-bar__container">
+          <a href="#" class="top-bar__logo">
+            <img
+              srcset="
+                ./assets/logo-betfred/logo-betfred.png    208w,
+                ./assets/logo-betfred/logo-betfred@2x.png 416w,
+                ./assets/logo-betfred/logo-betfred@3x.png 624w
+              "
+              sizes="(min-width: 760px) 50vw, (min-width: 1280px) 25vw, 100vw"
+              alt="Betfred Logo"
+            />
+          </a>
+          <button class="top-bar__cta">Log In</button>
+        </div>
+      </nav>
+      <section class="hero">
+        <div class="hero-container">
           <img
             srcset="
-              ./assets/logo-betfred/logo-betfred.png    208w,
-              ./assets/logo-betfred/logo-betfred@2x.png 416w,
-              ./assets/logo-betfred/logo-betfred@3x.png 624w
+              ./assets/creative-tablet-landscape-left/creative-tablet-landscape-left.png 350w,
+              ./assets/creative-tablet-landscape-left/creative-tablet-landscape-left@2x.png 700w,
+              ./assets/creative-tablet-landscape-left/creative-tablet-landscape-left@3x.png 1050w
             "
-            sizes="(min-width: 760px) 50vw, (min-width: 1280px) 25vw, 100vw"
-            alt="Betfred Logo"
+            sizes=""
+            alt="Spin to win left"
+            class="hero-img-left"
           />
-        </a>
-        <button class="top-bar__cta">Log In</button>
-      </div>
-    </nav>
-    <section class="hero">
-      <div class="hero-container">
-        <img
-          srcset="
-            ./assets/creative-desktop-left/creative-desktop-left.png     700w,
-            ./assets/creative-desktop-left/creative-desktop-left@2x.png 1400w,
-            ./assets/creative-desktop-left/creative-desktop-left@3x.png 2100w
-          "
-          sizes=""
-          alt="Spin to win left"
-          class="hero-img-left"
-        />
-        <div class="hero-content">
-          <h1 class="hero-content__heading">
-            <span>BIG FISHING</span>
-            <span>FORTUNE</span>
-          </h1>
-          <p class="hero-content__text">
-            <span>WHICH FREE PLAY PRIZE</span>
-            <span>WILL YOU REEL IN?</span>
-          </p>
-          <button class="hero-content__cta">View Shop Locator</button>
+          <div class="hero-content">
+            <h1 class="hero-content__heading">
+              <span>BIG FISHING</span>
+              <span>FORTUNE</span>
+            </h1>
+            <p class="hero-content__text">
+              <span>WHICH FREE PLAY PRIZE</span>
+              <span>WILL YOU REEL IN?</span>
+            </p>
+            <button class="hero-content__cta">View Shop Locator</button>
+          </div>
+          <img
+            srcset="
+              ./assets/creative-tablet-portrait/creative-tablet-portrait.png     768w,
+              ./assets/creative-tablet-portrait/creative-tablet-portrait@2x.png 1536w,
+              ./assets/creative-tablet-portrait/creative-tablet-portrait@3x.png 2304w
+            "
+            sizes=""
+            alt="Spin To Win"
+            class="hero-img-mobile"
+          />
+          <img
+            srcset="
+            ./assets/creative-tablet-landscape-right/creative-tablet-landscape-right.png 350w,
+            ./assets/creative-tablet-landscape-right/creative-tablet-landscape-right@2x.png 700w,
+            ./assets/creative-tablet-landscape-right/creative-tablet-landscape-right@3x.png 1050w
+            "
+            sizes=""
+            alt="Spin to win right"
+            class="hero-img-right"
+          />
         </div>
-        <img
-          srcset="
-            ./assets/creative-tablet-portrait/creative-tablet-portrait.png     768w,
-            ./assets/creative-tablet-portrait/creative-tablet-portrait@2x.png 1536w,
-            ./assets/creative-tablet-portrait/creative-tablet-portrait@3x.png 2304w
-          "
-          sizes=""
-          alt="Spin To Win"
-          class="hero-img-mobile"
-        />
-        <img
-          srcset="
-            ./assets/creative-desktop-right/creative-desktop-right.png     700w,
-            ./assets/creative-desktop-right/creative-desktop-right@2x.png 1400w,
-            ./assets/creative-desktop-right/creative-desktop-right@3x.png 2100w
-          "
-          sizes=""
-          alt="Spin to win right"
-          class="hero-img-right"
-        />
-      </div>
-    </section>
-    <section class="content">
-      <div class="content-container">
-        <h2 class="HeadingBlackLeftBlack">
-          PLAY ANY GAME FROM WEDENESDAY 23RD MARCH - SUNDAY 3RD APRIL TO JOIN.
-        </h2>
-        <h3 class="HeadingBoldLeftBlack">TERMS & CONDITIONS</h3>
-        <p class="BodyRegularLeftBlack">
-          Play any game between Wednesday 23rd March - Sunday 3rd April for a
-          chance to be rewarded with a fortune code. Redemption dates on fortune
-          codes will be printed on the fortune ticket. Fortune code values may
-          vary and free play will be available on selected games only. Betfred
-          rules apply.
-        </p>
-      </div>
-    </section>
+      </section>
+      <section class="content">
+        <div class="content-container">
+          <h2 class="HeadingBlackLeftBlack">
+            PLAY ANY GAME FROM WEDENESDAY 23RD MARCH - SUNDAY 3RD APRIL TO JOIN.
+          </h2>
+          <h3 class="HeadingBoldLeftBlack">TERMS & CONDITIONS</h3>
+          <p class="BodyRegularLeftBlack">
+            Play any game between Wednesday 23rd March - Sunday 3rd April for a
+            chance to be rewarded with a fortune code. Redemption dates on fortune
+            codes will be printed on the fortune ticket. Fortune code values may
+            vary and free play will be available on selected games only. Betfred
+            rules apply.
+          </p>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-icons">
+            <img
+              src="./assets/icon-compliance-tttt/icon-compliance-tttt.svg"
+              alt="#"
+            />
+            <img
+              src="./assets/icon-compliance-gamble-aware/icon-compliance-gamble-aware-1.svg"
+              alt="#"
+            />
+            <img
+              src="./assets/icon-compliance/icon-compliance-18-2.svg"
+              alt="#"
+            />
+            <img
+              src="./assets/icon-compliance-gambling-commission/icon-compliance-gambling-commission-2.png"
+              alt="#"
+            />
+            <img
+              src="./assets/icon-compliance-nccg/icon-compliance-nccg.svg"
+              alt="#"
+            />
+            <img
+              src="./assets/icon-compliance-gibraltar-2/icon-compliance-gibraltar-2.svg"
+              alt="#"
+            />
+            <img
+              src="./assets/icon-compliance-ibia-2/icon-compliance-ibia-2.png"
+              alt="#"
+            />
+            <img
+              src="./assets/icon-compliance-ng-helpline/icon-compliance-ng-helpline.svg"
+              alt="#"
+            />
+            <img
+              src="./assets/icon-compliance-gamstop-3/icon-compliance-gamstop-3.svg"
+              alt="#"
+            />
+          </div>
+          <p class="footer-text">
+            Petfre (Gibraltar) Limited trading as Betfred & Oddsking, registered
+            in Gibraltar. Petfre (Gibraltar) Limited is licensed and regulated in
+            Great Britain by the Gambling Commission under account number
+            <a href="#">39544</a> and licensed by the Gibraltar Government and
+            regulated by the <a href="#">Gibraltar Gambling Commissioner</a> (RGL
+            no. 036 & 038) for all other customers. The registered office of
+            Petfre (Gibraltar) Ltd is at 5/2 Waterport Place, Gibraltar, with
+            registered company number 99314. Copyright 2011 Petfre (Gibraltar)
+            Ltd. All Rights Reserved. Account holders must be 18 or over.
+          </p>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
